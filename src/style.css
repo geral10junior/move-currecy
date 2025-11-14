@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-azul-900: #09212b;
+  --color-azul-800: #0e3445;
+  --color-azul-700: #30c1ff;
+  --color-azul-400: #6cd0fa;
+  --color-azul-200: #b3e5fa;
+}
+
+@utility container {
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  @media (width >= 40rem) {
+    padding: 0 1rem;
+  }
+}
