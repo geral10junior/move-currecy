@@ -8,6 +8,18 @@
   --color-azul-200: #b3e5fa;
 }
 
+.btn {
+  color: var(--color-azul-800);
+  background-color: var(--color-azul-700);
+  border-radius: 0.2rem;
+  padding: 0.9rem 1.5rem;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #4ac5fa;
+}
+
 @utility container {
   margin: 0 auto;
   padding: 0 0.5rem;

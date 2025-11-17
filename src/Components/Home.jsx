@@ -126,14 +126,14 @@ export const Home = () => {
         />
         <img
           width="480"
-          className="absolute ml-100 mt-60 max-lg:ml-4"
+          className="absolute ml-100 mt-60 max-lg:-ml-2"
           src={element}
           alt=""
         />
       </div>
       <div className="flex justify-center mt-12">
         <button
-          className=" bg-azul-700 font-bold text-azul-800 rounded-[0.2rem] p-4 cursor-pointer hover:bg-azul-700/90 z-40"
+          className="btn z-40"
           onClick={(e) => {
             e.preventDefault();
             setInput('');
