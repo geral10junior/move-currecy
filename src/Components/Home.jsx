@@ -58,7 +58,7 @@ export const Home = () => {
   }
 
   return (
-    <div className="max-w-4xl mx-auto relative">
+    <section className="max-w-4xl mx-auto relative ">
       <h1 className="mt-16 uppercase text-5xl text-center text-balance text-azul-200 font-bold">
         Faça sua Doação de maneira rápida e fácil.
       </h1>
@@ -118,10 +118,31 @@ export const Home = () => {
           </div>
         </div>
 
-        <img className="absolute mr-220 mt-80" src={element} alt="" />
-        <img className="absolute ml-220 mt-80" src={element} alt="" />
+        <img
+          width="480"
+          className="absolute mr-100 mt-60 max-lg:hidden"
+          src={element}
+          alt=""
+        />
+        <img
+          width="480"
+          className="absolute ml-100 mt-60 max-lg:ml-4"
+          src={element}
+          alt=""
+        />
       </div>
-    </div>
+      <div className="flex justify-center mt-12">
+        <button
+          className=" bg-azul-700 font-bold text-azul-800 rounded-[0.2rem] p-4 cursor-pointer hover:bg-azul-700/90 z-40"
+          onClick={(e) => {
+            e.preventDefault();
+            setInput('');
+          }}
+        >
+          Realizar doação
+        </button>
+      </div>
+    </section>
   );
 };
 export default Home;
