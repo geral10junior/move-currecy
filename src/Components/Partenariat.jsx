@@ -7,7 +7,7 @@ import caravan from '../assets/parceiros/caravan.svg?react';
 
 export const Partenariat = () => {
   return (
-    <section className="container">
+    <section id="parceiros" className="container">
       <h1 className="mt-20 mb-12 text-center font-bold text-white text-2xl md:text-3xl text-balance">
         Todo grande projeto gera uma grande parceria.
       </h1>

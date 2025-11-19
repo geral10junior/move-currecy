@@ -6,7 +6,7 @@ import presente from '../../assets/icons/presente.svg?react';
 
 export const Benefits = () => {
   return (
-    <section className="container">
+    <section id="beneficios" className="container">
       <h1 className="mt-20 mb-12 font-bold text-white text-2xl md:text-3xl text-balance">
         Benefícios de ser um doador.
       </h1>

@@ -5,7 +5,7 @@ import hospital from '../assets/hospital.png';
 
 export const Projects = () => {
   return (
-    <section className="md:mt-[220px] mt-[120px] container">
+    <section id="projetos" className="md:mt-[220px] mt-[120px] container">
       <h1 className="mb-12 font-bold text-white text-2xl md:text-3xl max-w-[20ch] text-balance">
         Contruir projetos revolucionários é a nossa paixão.
       </h1>
