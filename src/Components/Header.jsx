@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="container pt-12 flex justify-between items-center">
       <img width="137" height="66" src={logo} alt="" />
-      <ul className="flex text-white gap-8">
+      <ul className="flex text-white gap-8 *:*:hover:text-azul-400 *:*:font-text">
         <li>
           <a href="#projetos">Projetos</a>
         </li>

@@ -7,10 +7,10 @@ import presente from '../../assets/icons/presente.svg?react';
 export const Benefits = () => {
   return (
     <section id="beneficios" className="container">
-      <h1 className="mt-20 mb-12 font-bold text-white text-2xl md:text-3xl text-balance">
+      <h1 className="font-main  mt-20 mb-12 font-bold text-white text-2xl md:text-3xl text-balance">
         Benefícios de ser um doador.
       </h1>
-      <div className="flex gap-4 sm:gap-8 snap-x snap-mandatory overflow-x-auto">
+      <div className="flex font-text gap-4 sm:gap-8 snap-x snap-mandatory overflow-x-auto">
         <Card
           title="Título Move"
           text="Com o título Move, você tem preferências em filas, além de meia entrada em festividades."

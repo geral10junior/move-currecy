@@ -6,6 +6,9 @@
   --color-azul-700: #30c1ff;
   --color-azul-400: #6cd0fa;
   --color-azul-200: #b3e5fa;
+
+  --font-main: 'Sansation', 'system-ui', 'sans-serif';
+  --font-text: 'Poppins', 'Monteserrat', 'sans-serif';
 }
 
 .btn {

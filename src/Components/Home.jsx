@@ -59,10 +59,10 @@ export const Home = () => {
 
   return (
     <section className="max-w-4xl mx-auto relative ">
-      <h1 className="mt-16 uppercase text-5xl text-center text-balance text-azul-200 font-bold">
+      <h1 className="font-main mt-16 uppercase text-5xl text-center text-balance text-azul-200 font-bold">
         Faça sua Doação de maneira rápida e fácil.
       </h1>
-      <p className="mt-4 text-center text-gray-400 text-balance">
+      <p className="font-text mt-4 text-center text-gray-400 text-balance">
         Aqui você pode realizar doações que estarão atreladas a um índice
         poderoso que é o Bitcoin.
       </p>
@@ -72,7 +72,7 @@ export const Home = () => {
             <select
               name="currency"
               id="currency"
-              className="text-white"
+              className="text-white font-main"
               value={selectedCurrency}
               onChange={handleCurrencyChange}
             >
@@ -103,7 +103,7 @@ export const Home = () => {
           alt=""
         />
         <div className="z-50">
-          <label className="text-white" htmlFor="btc">
+          <label className="text-white font-main" htmlFor="btc">
             BTC
           </label>
           <div>
@@ -133,7 +133,7 @@ export const Home = () => {
       </div>
       <div className="flex justify-center mt-12">
         <button
-          className="btn z-40"
+          className="btn z-40 font-text"
           onClick={(e) => {
             e.preventDefault();
             setInput('');
